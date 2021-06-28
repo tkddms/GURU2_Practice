@@ -9,10 +9,7 @@ fun main(){
     var _var3 = 10.2
     var _var4 = '안'
     var _var5 = "안드로이드"
-    var name : String = "한상은"
-    var id : Int = 2020111415
-    var age : Int = 21
-    var dept : Char = 'S'
+
 //    println(var1)
 //    println(var2)
 //    println(var3)
@@ -23,9 +20,6 @@ fun main(){
     println(_var3)
     println(_var4)
     println(_var5)
-    println(name)
-    println(id)
-    println(age)
-    println(dept)
+
 
 }
