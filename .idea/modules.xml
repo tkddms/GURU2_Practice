@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GURU2_Practice.iml" filepath="$PROJECT_DIR$/.idea/GURU2_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/StartApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StartApplication.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StartApplication.app.iml" />
     </modules>
   </component>
 </project>
