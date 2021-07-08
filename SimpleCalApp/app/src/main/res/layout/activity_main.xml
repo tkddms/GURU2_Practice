@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="숫자1"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="숫자2"
+        android:layout_margin="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기"
+        android:layout_margin="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/subBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빼기"
+        android:layout_margin="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/mulBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="곱하기"
+        android:layout_margin="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/divBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나누기"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산 결과 : "
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textColor="#ff0000"/>
+
+</LinearLayout>
