@@ -25,10 +25,12 @@
         android:layout_height="100dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
-        android:tint="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_sentiment_satisfied_alt_24"
-        tools:layout_editor_absoluteY="254dp" />
+        app:tint="@color/teal_700" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
