@@ -1,5 +1,6 @@
-package com.example.flashlight
+ package com.example.flashlight
 
+import android.content.Intent
 import android.graphics.SweepGradient
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,12 +16,15 @@ class MainActivity : AppCompatActivity() {
 
         flashSwitch = findViewById(R.id.flashSwitch)
         val torch = Torch(this)
+        val intent = Intent(this, TorchService::class.java)
 
         flashSwitch.setOnCheckedChangeListener { compoundButton, isChecked ->
             if (isChecked){
-                torch.flashOn()
+                intent.action = "on"
+                startService(intent)
             }else{
-                torch.flashOff()
+                intent.action = "off"
+                startService(intent)
             }
         }
     }
