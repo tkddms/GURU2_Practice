@@ -4,6 +4,7 @@ import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
@@ -61,6 +62,12 @@ class PersonnelReg : AppCompatActivity() {
             intent.putExtra("intent_name", str_name)
             startActivity(intent)
         }
+    }
+
+    // 메뉴 설정
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_personnel_reg, menu)
+        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
