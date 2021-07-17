@@ -3,9 +3,9 @@ package com.example.studentmanagement
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class PersonalList : AppCompatActivity() {
+class PersonnelReg : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_personal_list)
+        setContentView(R.layout.activity_personnel_reg)
     }
 }
